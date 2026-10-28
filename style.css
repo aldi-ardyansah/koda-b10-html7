@@ -24,7 +24,7 @@ body {
 
 .screen > span {
     margin: 0;
-    right: 20px;
+    right: 10px;
     bottom: 0;
     position: absolute;
     font-size: 56px;
@@ -46,7 +46,7 @@ body {
     justify-self: center;
     color: #ffffff;
     border: 1px solid grey;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .btn-light-grey {
@@ -64,8 +64,8 @@ body {
 }
 
 .btn-light-grey > img {
-    width: 64%;
-    height: 64%;
+    width: 56%;
+    height: 56%;
     object-fit: contain;
     display: block; 
     margin: auto;
