@@ -3,7 +3,7 @@
 ## Calculator from CSS Grid
 
 ### Screenshoot of My Calculator
-![Screenshoot of My Calculator](my-calculator.png)
+![Screenshoot of My Calculator](docs/my-calculator.png)
 
 ### Screenshoot of Reference Calculator
-![Screenshoot of Reference Calculator](reference-calculator.jpg)
+![Screenshoot of Reference Calculator](docs/reference-calculator.jpg)
