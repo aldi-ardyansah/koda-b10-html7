@@ -28,7 +28,7 @@ body {
     bottom: 0;
     position: absolute;
     font-size: 56px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .buttons {
@@ -44,23 +44,35 @@ body {
     border-radius: 50%;
     padding: 0;
     justify-self: center;
-    color: #ffffff;
+    color: #FFFFFF;
     border: 1px solid grey;
     font-size: 28px;
 }
 
 .btn-light-grey {
-    background-color: #5E5E5EFF;
+    background-color: #5E5E5E;
     display: grid;
     place-items: center;
 }
 
+.btn-light-grey:hover {
+    background-color: #969696;
+}
+
 .btn-grey {
-    background-color: #343434FF;
+    background-color: #343434;
+}
+
+.btn-grey:hover {
+    background-color: #696969;
 }
 
 .btn-orange {
-    background-color: #FF9000FF;
+    background-color: #FF9000;
+}
+
+.btn-orange:hover {
+    background-color: #FFB85C;
 }
 
 .btn-light-grey > img {
