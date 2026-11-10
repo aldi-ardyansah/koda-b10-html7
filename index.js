@@ -9,7 +9,7 @@ $("body").ready(function () {
 
     $("#btn-backspace").on("click", function() {
         if (operation !== null) {
-            
+
         }
         else {
             if (screenText.length <= 1) {
@@ -224,5 +224,5 @@ $("body").ready(function () {
                 $("#screen").text(screenText);
             }
         }
-    }); 
+    });
 });
