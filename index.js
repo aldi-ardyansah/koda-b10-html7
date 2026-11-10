@@ -8,13 +8,18 @@ $("body").ready(function () {
     $("#screen").text(screenText);
 
     $("#btn-backspace").on("click", function() {
-        if (screenText.length === 1) {
-            screenText = "0";
-            $("#screen").text(screenText);
+        if (operation !== null) {
+            
         }
         else {
-            screenText = screenText.slice(0, -1);
-            $("#screen").text(screenText);
+            if (screenText.length <= 1) {
+                screenText = "0";
+                $("#screen").text(screenText);
+            }
+            else {
+                screenText = screenText.slice(0, -1);
+                $("#screen").text(screenText);
+            }
         }
     });
 
