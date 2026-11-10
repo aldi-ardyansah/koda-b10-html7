@@ -31,6 +31,7 @@ body {
     font-size: 56px;
     color: #FFFFFF;
     word-break: break-all;
+    text-align: right;
 }
 
 .buttons {
