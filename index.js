@@ -179,21 +179,29 @@ $("body").ready(function () {
         else if (operation === "divide") {
             num2 = parseFloat(screenText);
             result = num1 / num2;
+            num1 = result;
+            screenText = result;
             $("#screen").text(result);
         }
         else if (operation === "multiply") {
             num2 = parseFloat(screenText);
             result = num1 * num2;
+            num1 = result;
+            screenText = result;
             $("#screen").text(result);
         }
         else if (operation === "minus") {
             num2 = parseFloat(screenText);
             result = num1 - num2;
+            num1 = result;
+            screenText = result;
             $("#screen").text(result);
         }
         else if (operation === "plus") {
             num2 = parseFloat(screenText);
             result = num1 + num2;
+            num1 = result;
+            screenText = result;
             $("#screen").text(result);
         }
     });
