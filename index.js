@@ -27,8 +27,9 @@ $("body").ready(function () {
         $("#screen").text(screenText);
     });
 
-    $("#btn-persen").on("click", function() {
-        screenText = parseFloat(screenText) * 100 / 100;
+    $("#btn-percentage").on("click", function () {
+        let percentage = parseFloat(screenText);
+        screenText = String(percentage / 100);
         $("#screen").text(screenText);
     });
 
@@ -220,5 +221,3 @@ $("body").ready(function () {
         }
     }); 
 });
-
-// Persen
